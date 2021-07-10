@@ -24,14 +24,13 @@ SP = Set Point (reference signal)
 
 
 After all, computers are discrete-time devices. Clearly, discrete-time approximations for the integral is needed.
-
-![p4](img/eq4.png)
+![p4](img/eq4.png) </br>
 The “height” of the rectangle is error at each time point (e<sub>k</sub>) and the width is the time interval, Δt.
 
-![p5](img/pi-control-slide3.png)
+![p5](img/pi-control-slide3.png) 
 
 At each new time-step, all you have to do is compute the new error and add that to the running sum, i.e.,
-![p6](img/eq5b.png)
+![p6](img/eq5b.png) </br>
 Adding integral gain can act to smooth certain types of noise (i.e., fluctuating around a zero-mean value). However, like the proportional gain, you cannot make the integral gain arbitrarily large without consequence. If K_i is too large overcompensation can lead to instability through oscillations of increasing magnitude.
 
 
