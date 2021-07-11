@@ -33,4 +33,18 @@ At each new time-step, all you have to do is compute the new error and add that 
 ![p6](img/eq5b.png) </br>
 Adding integral gain can act to smooth certain types of noise (i.e., fluctuating around a zero-mean value). However, like the proportional gain, you cannot make the integral gain arbitrarily large without consequence. If K_i is too large overcompensation can lead to instability through oscillations of increasing magnitude.
 
+---
 
+## Building a PD Controller
+**Programming a Proportional-Differential Controller**
+
+The addition of integral gain minimised SSE, but this increased settling time and percent overshoot. </br>
+The derivative term attempts to “predict” what the error will be by linearly extrapolating the change in error value, i.e. it looks to future values (recall that the finite difference approximation of the derivative is the slope of the tangent line). By taking into account the rate of change in the error, the system can more gracefully and rapidly approach the setpoint. </br>
+The derivative of a function represents the slope of the tangent line evaluated at a particular point. It is possible then to approximate the slope with a single-step backwards difference formula,
+
+![p6](img/eq6.png) 
+
+**Result Ouput of designed PD Controller**
+
+![p7](img/buiding-a-pd-controller-01.png)
+![p8](img/buiding-a-pd-controller-02.png)
