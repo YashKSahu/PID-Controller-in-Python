@@ -57,6 +57,6 @@ The derivative of a function represents the slope of the tangent line evaluated 
 The Final part, a complete PID Controller. Minimize the SSE as well.
 
 ![p9](img/control.png)
-![p10](img/buiding-a-pid-controller-01.png)
-![p11](img/buiding-a-pid-controller-02.png)
+![p1](img/building-a-pid-controller-01.png)
+![p1](img/building-a-pid-controller-02.png)
 
