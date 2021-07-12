@@ -48,3 +48,15 @@ The derivative of a function represents the slope of the tangent line evaluated 
 
 ![p7](img/buiding-a-pd-controller-01.png)
 ![p8](img/buiding-a-pd-controller-02.png)
+
+---
+
+## Building a PID Controller
+**Programming a Proportional-Differential-Integral Controller**
+
+The Final part, a complete PID Controller. Minimize the SSE as well.
+
+![p9](img/control.png)
+![p10](img/buiding-a-pid-controller-01.png)
+![p11](img/buiding-a-pid-controller-02.png)
+
