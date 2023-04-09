@@ -3,6 +3,12 @@ Design and Understand the basics of a PID Controller using Python
 
 ---
 
+## Automatic PID Controller - Gradient Descent Method
+![](img/gd_result_plot.png)
+![](img/gd_result.png)
+
+---
+
 ## Building a P Controller
 **Programming a Proportional Controller**
 
